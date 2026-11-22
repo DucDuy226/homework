@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  background-color: rgb(172, 232, 172);
+  overflow: hidden;
+}
+button {
+  top: 10px;
+  left: 10px;
+  margin-right: 10px;
+  padding: 10px 15px;
+  background: #1989cf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #145374;
+}
+#aquarium {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #009dff, #265c79);
+  overflow: hidden;
+}
+.ho_ca {
+  position: fixed; 
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(aqua, royalblue);
+}
+.sua_1 {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  background: url("sua.png") no-repeat center/contain;
+  top: 50%;
+  left: 30%;
+}
+.shark {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  background: url('shark.png') no-repeat center/contain;
+  top: 68%;
+  left: 0;
+  transform: scaleX(1);
+}
+.stingray {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  background: url('stingray.png') no-repeat center/contain;
+  bottom: 40%;
+  right: 80%;
+  transform: scaleX(-1);
+}
+.turtle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url('turtle.png') no-repeat center/contain;
+  bottom: 60%;
+  left: 20%;
+}
+.diver1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url('diver1.png') no-repeat center/contain;
+  bottom: 20%;
+  left: 10%;
+}
+.diver2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url('diver2.png') no-repeat center/contain;
+  top: 70%;
+  left: 20%;
+}
+.cover{
+    display: flex;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    align-items: center;
+    justify-content: center
+  }
+  .rong {
+  position: fixed;
+  left: 1px;
+  bottom: 0;
+  width: 220px;
+  height: auto;
+  pointer-events: none;
+  z-index: 5;
+}
